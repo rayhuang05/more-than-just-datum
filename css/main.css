@@ -1,0 +1,51 @@
+html {
+  font-family: "IBM Plex Sans", sans-serif;
+  background-color: #efefef;
+}
+
+main {
+  background-color: #fff;
+}
+
+header {
+  align-items: center;
+  background-color: #ddd;
+}
+
+.logo {
+  max-width: 200px;
+}
+
+.search-bar {
+  position: relative;
+}
+
+.table {
+  background-color: #fff;
+}
+
+.glass {
+  position: absolute;
+  max-width: 1.5em;
+}
+
+.body {
+  background-color: #efefef;
+}
+
+ul {
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.id, .type, .age, .swings, .slides, .seesaws, .sandboxes, .houses {
+  width: 6rem;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .table-wrapper {
+    overflow: visible;
+  }
+
+}
